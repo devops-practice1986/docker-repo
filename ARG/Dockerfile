@@ -9,4 +9,3 @@ RUN echo "Course: $course, Author: $author, Company: $company"
 CMD ["sleep", "100"]
 
 # docker build -t env:v1 --build-arg version=8 . 
-# 
