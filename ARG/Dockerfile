@@ -1,4 +1,4 @@
-ARG version 
+ARG version=latest 
 # latest image
 FROM almalinux:${version}
 ARG course="DevOps with Docker" \
