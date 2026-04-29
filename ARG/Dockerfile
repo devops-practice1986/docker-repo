@@ -1,8 +1,9 @@
-ARG version # latest image
+ARG version 
+# latest image
 FROM almalinux:${version}
 ARG course="DevOps with Docker" \
-author="Matthews" \
-company="inspiredevops"
+    author="Matthews" \
+    company="inspiredevops"
 
 RUN echo "Course: $course, Author: $author, Company: $company"
 CMD ["sleep", "100"]
