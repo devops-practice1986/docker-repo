@@ -3,7 +3,5 @@ ARG course="DevOps with Docker" \
 author="Matthews" \
 company="inspiredevops"
 
-RUN echo "Course: $course" && \
-    echo "Author: $author" && \
-    echo "Company: $company"
+RUN echo "Course: $course, Author: $author, Company: $company"
 CMD ["sleep", "100"]
